@@ -1,0 +1,28 @@
+/* Add a media query to show the button only on the screen and hide it when printing */
+.page-break-before {
+  page-break-before: always;
+}
+
+.page-break-after {
+  page-break-after: always;
+}
+
+@media print {
+
+  .print-hidden {
+
+    display: none;
+
+  }
+
+}
+
+@media print {
+
+  .close-hidden {
+
+    display: none;
+
+  }
+
+}

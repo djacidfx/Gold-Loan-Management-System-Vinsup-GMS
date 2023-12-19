@@ -1,0 +1,11 @@
+.dashboard-box {
+
+    transition: background-color 0.3s ease-in-out;
+
+  }
+
+  .dashboard-box:hover {
+
+    transform: scale(1.1); /* Increase the scale factor as needed */
+
+  }

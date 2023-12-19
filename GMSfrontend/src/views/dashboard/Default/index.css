@@ -1,0 +1,67 @@
+/* .chat{
+  padding-top: 800px;
+ 
+} */
+/* .gold{
+  display: inline-flex;
+ 
+  
+
+} */
+/* .inline{
+  display: inline-flex;
+} */
+/* .chat{
+  margin-top: -100px;
+  margin-left: -280px;
+   
+} */
+/* .first{
+  display: inline-flex;
+  gap: 35px;
+} */
+/* .chat{
+  display: inline-flex;
+  gap: 5%;
+} */
+/* .barchat{
+  width: 350px;
+  height: 350px;
+  background-color: aqua;
+} */
+/* .biechart{
+  padding-top: 3%;
+} */
+/* Default styles for larger screens */
+.inline {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  flex: 1;
+}
+
+.chat {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Media query for medium-sized screens (e.g., tablets) */
+@media (max-width: 1024px) {
+  .inline {
+    flex-direction: column;
+  }
+}
+
+/* Media query for small screens (e.g., mobile devices) */
+@media (max-width: 600px) {
+  .grid-item {
+    flex: 1;
+  }
+
+  .chat {
+    flex-direction: column;
+  }
+}
